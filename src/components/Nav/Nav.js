@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Nav.css';
 
 const Nav = () => {
   return (
-    <div>
+    <div className="navwrapper">
       <NavLink
+        className="navlink"
         exact
         to="/"
         activeStyle={{
@@ -15,6 +17,7 @@ const Nav = () => {
         Home
       </NavLink>
       <NavLink
+        className="navlink"
         to="/about"
         activeStyle={{
           fontWeight: 'bold',
@@ -24,6 +27,7 @@ const Nav = () => {
         About
       </NavLink>
       <NavLink
+        className="navlink"
         to="/projects"
         activeStyle={{
           fontWeight: 'bold',
@@ -33,6 +37,7 @@ const Nav = () => {
         Projects
       </NavLink>
       <NavLink
+        className="navlink"
         to="/contact"
         activeStyle={{
           fontWeight: 'bold',
