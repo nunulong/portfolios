@@ -1,31 +1,30 @@
-.greeting {
-  width: 100vw;
-  height: auto;
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   text-align: center;
+  background: url('../../assets/background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.greeting h1 {
+.home h1 {
   font-size: 5rem;
   text-transform: uppercase;
   margin: 0;
 }
 
-.greeting h2 {
+.home h2 {
   font-size: 2rem;
   text-transform: uppercase;
 }
 
 img[alt='profile'] {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   width: 20vw;
-  height: auto;
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.bio {
-  font-size: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
