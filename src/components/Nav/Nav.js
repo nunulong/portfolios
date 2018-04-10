@@ -4,7 +4,7 @@ import './Nav.css';
 
 const Nav = () => {
   return (
-    <div className="navwrapper">
+    <div className="navwrapper" id="navbar">
       <NavLink
         className="navlink"
         exact

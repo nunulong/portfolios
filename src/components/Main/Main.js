@@ -5,10 +5,11 @@ import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Resume from '../Resume/Resume';
 import Contact from '../Contact/Contact';
+import './Main.css';
 
 const Main = () => {
   return (
-    <div>
+    <div className="main">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
