@@ -16,8 +16,8 @@
   position: relative;
   left: 5%;
   top: 10%;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  color: #4000ff;
   box-shadow: -5px 5px 25px #000;
   text-indent: 50px;
   text-align: justify;

@@ -11,7 +11,7 @@ const Nav = () => {
         to="/"
         activeStyle={{
           fontWeight: 'bold',
-          color: 'red'
+          color: '#ff8000'
         }}
       >
         Home
@@ -21,7 +21,7 @@ const Nav = () => {
         to="/about"
         activeStyle={{
           fontWeight: 'bold',
-          color: 'red'
+          color: '#ff8000'
         }}
       >
         About
@@ -31,10 +31,20 @@ const Nav = () => {
         to="/projects"
         activeStyle={{
           fontWeight: 'bold',
-          color: 'red'
+          color: '#ff8000'
         }}
       >
         Projects
+      </NavLink>
+      <NavLink
+        className="navlink"
+        to="/resume"
+        activeStyle={{
+          fontWeight: 'bold',
+          color: '#ff8000'
+        }}
+      >
+        Resume
       </NavLink>
       <NavLink
         className="navlink"
