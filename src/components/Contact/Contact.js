@@ -5,6 +5,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
+        <h1>Let's get in touch</h1>
         <form className="form-container">
           <label htmlFor="fname">First Name</label>
           <input
