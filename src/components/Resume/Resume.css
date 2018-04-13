@@ -2,46 +2,101 @@
   height: 100%;
 }
 
-.card-wrapper {
+.resume-header {
+  height: 30%;
+  background: url('../../assets/skills-background.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 4vmin;
+}
+
+.resume-header h1,
+h2 {
+  margin: 0;
+}
+
+.resume-header h1 {
+  text-transform: uppercase;
+}
+
+.resume-container {
+  height: 70%;
+  background: #f2f2f2;
+}
+
+.card-container {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
   align-items: flex-start;
   background: #f2f2f2;
-  height: 70vh;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 45%;
-  margin-top: 3rem;
+  width: 46vw;
+  height: 50vh;
+  margin-top: 4vh;
   background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card h1 {
+  font-size: 4vmin;
+  margin: 0;
+}
+
+.card .intro {
+  margin: 0;
+  font-size: 2.5vmin;
+  padding-left: 6vmin;
+  padding-right: 6vmin;
+  text-align: justify;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.header {
-  height: 30vh;
-  width: 100%;
-  background: url('../../assets/skills-background.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.icon-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.header-text {
+.resume-icon {
   margin: 0;
-  font-size: 2rem;
-  color: #fff;
-  text-align: center;
+  display: inline-block;
+  font-size: 4vmin;
+  color: #0080ff;
+  padding: 0 2vmin 0 2vmin;
 }
 
-.header-text h1 {
+.resume-icon p {
   margin: 0;
-  padding-top: 3rem;
-  text-transform: uppercase;
+  font-size: 3vmin;
+}
+
+@media (max-width: 700px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90vw;
+    height: 28vh;
+    margin: auto;
+    margin-top: 2.5vh;
+  }
 }

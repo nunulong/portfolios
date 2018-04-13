@@ -1,7 +1,7 @@
 .navwrapper {
   display: flex;
   justify-content: space-around;
-  font-size: 2rem;
+  font-size: 4.5vmin;
   background: rgba(0, 0, 0, 0.8);
 }
 
