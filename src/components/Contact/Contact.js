@@ -4,67 +4,69 @@ import './Contact.css';
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      firstName: '',
-      lastName: '',
-      email: '',
-      text: ''
-    };
+    // this.state = {
+    //   name: '',
+    //   email: '',
+    //   text: ''
+    // };
   }
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
+  // handleChange = e => {
+  //   this.setState({
+  //     [e.target.name]: e.target.value
+  //   });
+  // };
+
+  // handSubmit = e => {
+  //   e.preventDefault();
+  //   this.setState(() => {
+  //     return {
+  //       name: '',
+  //       email: '',
+  //       text: ''
+  //     };
+  //   });
+  // };
 
   render() {
     return (
       <div className="contact">
         <h1>Let's get in touch</h1>
-        <form className="form-container">
-          <label htmlFor="fname">First Name</label>
+        <form
+          className="form-container"
+          action="https://formspree.io/felix.wang.1026@gmail.com"
+          method="POST"
+        >
+          <label htmlFor="name">Name</label>
           <input
             type="text"
-            id="fname"
-            name="firstName"
-            placeholder="Your first name.."
-            onChange={this.handleChange}
-            value={this.state.firstName}
-            autoComplete="first-name"
+            id="name"
+            name="name"
+            placeholder="Your name.."
+            autoComplete="name"
+            required
           />
 
-          <label htmlFor="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastName"
-            placeholder="Your last name.."
-            onChange={this.handleChange}
-            value={this.state.lastName}
-            autoComplete="last-name"
-          />
-
-          <label htmlFor="email">Email</label>
+          <label htmlFor="_replyto">Email</label>
           <input
             type="text"
             id="email"
-            name="email"
+            name="_replyto"
             placeholder="Your email.."
-            onChange={this.handleChange}
-            value={this.state.email}
             autoComplete="email"
+            required
           />
 
-          <label htmlFor="text">Text</label>
+          <label htmlFor="message">Message</label>
           <textarea
-            id="text"
-            name="text"
-            placeholder="Your words.."
-            onChange={this.handleChange}
-            value={this.state.text}
+            id="message"
+            name="message"
+            placeholder="Your message.."
             autoComplete="text"
+            required
           />
 
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Send Message" />
         </form>
       </div>
     );
