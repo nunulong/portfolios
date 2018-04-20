@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Resume.css';
+import './Skills.css';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import {
   faReact,

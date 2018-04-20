@@ -38,13 +38,13 @@ const Nav = () => {
       </NavLink>
       <NavLink
         className="navlink"
-        to="/resume"
+        to="/skills"
         activeStyle={{
           fontWeight: 'bold',
           color: '#ff8000'
         }}
       >
-        Resume
+        Skills
       </NavLink>
       <NavLink
         className="navlink"

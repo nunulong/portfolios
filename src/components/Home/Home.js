@@ -7,9 +7,9 @@ class Home extends Component {
     return (
       <div className="home">
         <img src={profile} alt="profile" />
-        <div>
+        <div className="title">
           <h1>Hello, I'm Ting</h1>
-          <h2>Software developer/Web developer</h2>
+          <h2>Software Engineer & Full-Stack Web Developer</h2>
         </div>
       </div>
     );
