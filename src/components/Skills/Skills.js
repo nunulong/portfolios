@@ -55,7 +55,7 @@ class Resume extends Component {
             </div>
             <div className="card">
               <h1>Back-End Development</h1>
-              <p>What I know ...</p>
+              <p className="intro">what makes the front-end of a website possible? This is where the back-end comes in. I've always been fascinated with back-end development because I love manipulating data. I've been equipped with these powerful tools: </p>
               <div className="icon-wrapper">
                 <div className="resume-icon">
                   <FontAwesomeIcon icon={faNode} />
