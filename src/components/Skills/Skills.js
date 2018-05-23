@@ -10,6 +10,7 @@ import {
   faNode,
   faPython
 } from '@fortawesome/fontawesome-free-brands';
+import { faGem } from '@fortawesome/fontawesome-free-solid';
 import MongoDB from '../../assets/mongodb.svg';
 
 class Resume extends Component {
@@ -64,6 +65,10 @@ class Resume extends Component {
                 <div className="resume-icon">
                   <FontAwesomeIcon icon={faPython} />
                   <p>Python</p>
+                </div>
+                <div className="resume-icon">
+                  <FontAwesomeIcon icon={faGem} />
+                  <p>Ruby on Rails</p>
                 </div>
                 <div className="resume-icon">
                   <img src={MongoDB} alt="mongodb" />
