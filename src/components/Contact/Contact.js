@@ -2,31 +2,6 @@ import React, { Component } from 'react';
 import './Contact.css';
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-    // this.state = {
-    //   name: '',
-    //   email: '',
-    //   text: ''
-    // };
-  }
-
-  // handleChange = e => {
-  //   this.setState({
-  //     [e.target.name]: e.target.value
-  //   });
-  // };
-
-  // handSubmit = e => {
-  //   e.preventDefault();
-  //   this.setState(() => {
-  //     return {
-  //       name: '',
-  //       email: '',
-  //       text: ''
-  //     };
-  //   });
-  // };
 
   render() {
     return (
