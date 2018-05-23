@@ -32,3 +32,12 @@ img[alt='profile'] {
 .title {
   color: #fff;
 }
+
+.title a {
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.title a:hover {
+  color: #ffd017;
+}

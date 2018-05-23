@@ -10,6 +10,7 @@ class Home extends Component {
         <div className="title">
           <h1>Hello, I'm Ting</h1>
           <h2>Software Engineer & Full-Stack Web Developer</h2>
+          <a href="https://dl.airtable.com/e13SgMeUSX6Tp8nTDB9P_ting_wang_resume.pdf" target="_blank"><h2>Find My Resume</h2></a>
         </div>
       </div>
     );
