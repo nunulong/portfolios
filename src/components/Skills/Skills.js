@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Skills.css';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faReact,
   faJs,
@@ -9,8 +9,8 @@ import {
   faSass,
   faNode,
   faPython
-} from '@fortawesome/fontawesome-free-brands';
-import { faGem } from '@fortawesome/fontawesome-free-solid';
+} from '@fortawesome/free-brands-svg-icons';
+import { faGem } from '@fortawesome/free-solid-svg-icons';
 import MongoDB from '../../assets/mongodb.svg';
 
 class Resume extends Component {
