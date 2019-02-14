@@ -6,7 +6,7 @@ const Slide = ({ item }) => {
       <img src={item.url} alt="img" />
       <div className="intro">
         <p>{item.intro}</p>
-        <a href={item.address} target="_blank">
+        <a href={item.address} target="_blank" rel="noopener noreferrer">
           Learn More
         </a>
       </div>
