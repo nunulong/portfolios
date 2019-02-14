@@ -7,11 +7,10 @@ import {
   faHtml5,
   faCss3,
   faSass,
-  faNode,
-  faPython
+  faNodeJs,
+  faPython,
 } from '@fortawesome/free-brands-svg-icons';
-import { faGem } from '@fortawesome/free-solid-svg-icons';
-import MongoDB from '../../assets/mongodb.svg';
+import { faGem, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 class Resume extends Component {
   render() {
@@ -59,7 +58,7 @@ class Resume extends Component {
               <p className="intro">What makes the front-end of a website possible? This is where the back-end comes in. I've always been fascinated with back-end development because I love manipulating data. I've been equipped with these powerful tools: </p>
               <div className="icon-wrapper">
                 <div className="resume-icon">
-                  <FontAwesomeIcon icon={faNode} />
+                  <FontAwesomeIcon icon={faNodeJs} />
                   <p>NodeJS</p>
                 </div>
                 <div className="resume-icon">
@@ -71,7 +70,7 @@ class Resume extends Component {
                   <p>Ruby on Rails</p>
                 </div>
                 <div className="resume-icon">
-                  <img src={MongoDB} alt="mongodb" />
+                  <FontAwesomeIcon icon={faDatabase} />
                   <p>MongoDB</p>
                 </div>
               </div>
