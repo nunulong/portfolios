@@ -22,6 +22,12 @@
   animation: shine 1s infinite;
 }
 
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 @-webkit-keyframes shine {
   from {
     -webkit-mask-position: 150%;
