@@ -8,32 +8,9 @@ class Nav extends Component {
     this.state = {};
   }
 
-  handleScroll = () => {
-    const navItem = document.querySelector('.navwrapper');
-    this.setState({
-      height: navItem.offsetHeight
-    });
-    this.setState({ scroll: window.scrollY });
-  }
-
-  componentDidMount() {
-    const navItem = document.querySelector('.navwrapper');
-    this.setState({
-      top: navItem.offsetTop,
-      height: navItem.offsetHeight
-    });
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentDidUpdate() {
-    this.state.scroll + this.state.currTop < this.state.top ?
-      document.body.style.paddingTop = `${this.state.height}px` :
-      document.body.style.paddingTop = 0;
-  }
-
   render() {
     return (
-      <div className={this.state.scroll > this.state.top ? "navwrapper fixed-nav" : "navwrapper"}>
+      <div className="navwrapper">
         <NavLink
           className="navlink"
           exact
