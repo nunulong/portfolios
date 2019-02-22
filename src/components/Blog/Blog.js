@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Blog extends Component {
-    constructor() {
-        super();
-    }
+const Blog = () => {
 
-    render() {
-        return (
-            <div>Coming Soon...</div>
-        );
-    }
+    return (
+        <div>Coming Soon...</div>
+    );
+
 }
 
 export default Blog;

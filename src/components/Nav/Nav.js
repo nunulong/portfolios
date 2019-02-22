@@ -5,6 +5,7 @@ import './Nav.css';
 class Nav extends Component {
   constructor() {
     super();
+    this.state = {};
   }
 
   render() {
