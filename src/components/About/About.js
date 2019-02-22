@@ -7,7 +7,7 @@ class About extends Component {
       <div className="about">
         <div className="intro">
           <p>
-            Hi, I'm Ting with my lovely wife Angelina. I am a software engineer who specializes in creating dynamic and clean web pages. I
+            Hi, I'm Ting with my lovely wife Angelina. I am a software engineer specializing in creating dynamic and clean websites. I
             enjoy being challenged and engaging with projects that require me to
             work outside my comfort and knowledge set, as continuing to learn
             new languages and development techniques are important to me and the

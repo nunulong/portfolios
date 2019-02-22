@@ -8,18 +8,14 @@
 }
 
 .about .intro {
-  font-size: 1.75vw;
-  width: 35vw;
-  height: 50vh;
-  padding: 1rem;
-  overflow: auto;
-  position: fixed;
-  left: 5%;
-  top: 25%;
+  box-sizing: border-box;
+  font-size: 1.25vw;
+  width: 40%;
+  height: 100%;
+  padding: 7vmin;
   background: rgba(255, 255, 255, 0.5);
-  color: #4000ff;
+  color: #6441f4;
   box-shadow: -5px 5px 25px #000;
-  text-indent: 50px;
   text-align: justify;
-  word-spacing: 2px;
+  text-indent: 1.5em;
 }
