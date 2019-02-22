@@ -10,7 +10,7 @@ class Nav extends Component {
 
   render() {
     return (
-      <div className="navwrapper">
+      <nav className="navwrapper">
         <NavLink
           className="navlink"
           exact
@@ -62,7 +62,7 @@ class Nav extends Component {
         >
           Contact
         </NavLink>
-      </div>
+      </nav>
     );
   }
 }

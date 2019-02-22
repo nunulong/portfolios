@@ -5,7 +5,7 @@ const Slide = ({ item }) => {
     <div className="slide">
       <img src={item.url} alt="img" />
       <div className="intro">
-        <p>{item.intro}</p>
+        <h4>{item.intro}</h4>
         <a href={item.address} target="_blank" rel="noopener noreferrer">
           Learn More
         </a>

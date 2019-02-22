@@ -34,5 +34,13 @@ img[alt='img'] {
 }
 
 .intro {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.intro > a {
+  transition: all 0.2s ease-in-out;
+}
+
+.intro > a:hover {
+  color: #ff8000;
 }

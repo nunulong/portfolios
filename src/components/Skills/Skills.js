@@ -17,8 +17,8 @@ class Resume extends Component {
     return (
       <div className="resume">
         <div className="resume-header">
-          <h1>What I'm hacking</h1>
-          <h3>Skills to get your idea off the ground</h3>
+          <h2>What I'm hacking</h2>
+          <h5>Skills to get your idea off the ground</h5>
         </div>
         <div className="resume-container">
           <div className="card-container">

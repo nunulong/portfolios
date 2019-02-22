@@ -17,7 +17,7 @@ class Contact extends Component {
             type="text"
             id="name"
             name="name"
-            placeholder="Your name.."
+            placeholder="Your name"
             autoComplete="name"
             required
           />
@@ -27,7 +27,7 @@ class Contact extends Component {
             type="text"
             id="email"
             name="_replyto"
-            placeholder="Your email.."
+            placeholder="Your email"
             autoComplete="email"
             required
           />
@@ -36,7 +36,7 @@ class Contact extends Component {
           <textarea
             id="message"
             name="message"
-            placeholder="Your message.."
+            placeholder="Your message"
             autoComplete="text"
             required
           />
