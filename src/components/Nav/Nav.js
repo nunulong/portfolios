@@ -5,7 +5,6 @@ import './Nav.css';
 class Nav extends Component {
   constructor() {
     super();
-    this.state = {};
   }
 
   render() {
@@ -51,6 +50,16 @@ class Nav extends Component {
           }}
         >
           Skills
+        </NavLink>
+        <NavLink
+          className="navlink"
+          to="/blog"
+          activeStyle={{
+            fontWeight: 'bold',
+            color: 'red'
+          }}
+        >
+          Blog
         </NavLink>
         <NavLink
           className="navlink"

@@ -4,7 +4,9 @@ import Home from '../Home/Home';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
+import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
+import Page404 from '../Page404/Page404';
 import './Main.css';
 
 const Main = () => {
@@ -15,7 +17,9 @@ const Main = () => {
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/skills" component={Skills} />
+        <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
+        <Route component={Page404} />
       </Switch>
     </div>
   );

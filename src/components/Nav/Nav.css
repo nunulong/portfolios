@@ -1,8 +1,9 @@
 nav {
   display: flex;
   justify-content: space-around;
-  font-size: 3vmin;
+  font-size: 2.25vmin;
   background: rgba(0, 0, 0);
+  text-transform: uppercase;
 }
 
 nav .navlink {
