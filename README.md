@@ -1,1 +1,1 @@
-# Portfolio [![Build Status](https://travis-ci.org/klugjo/hexo-autolinker.svg?branch=master)](https://travis-ci.org/klugjo/hexo-autolinker)
+# Portfolio [![Build Status](https://travis-ci.com/nunulong/portfolios.svg?branch=master)]
