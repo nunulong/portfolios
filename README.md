@@ -1,4 +1,4 @@
-# Introduction &middot; [![Build Status](https://travis-ci.com/nunulong/portfolios.svg?branch=master)](https://travis-ci.com/nunulong/portfolios)
+# Introduction &middot; [![Build Status](https://travis-ci.com/nunulong/portfolios.svg?branch=master)](https://travis-ci.com/nunulong/portfolios) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nunulong/portfolios/blob/master/LICENSE)
 
 This is a repository for my portfolio.
 
