@@ -1,6 +1,6 @@
-# Introduction
-[![Build Status](https://travis-ci.com/nunulong/portfolios.svg?branch=master)](https://travis-ci.com/nunulong/portfolios)
-This is a repo for my portfolio.
+# Introduction &middot; [![Build Status](https://travis-ci.com/nunulong/portfolios.svg?branch=master)](https://travis-ci.com/nunulong/portfolios)
+
+This is a repository for my portfolio.
 
 ## Installation
 
