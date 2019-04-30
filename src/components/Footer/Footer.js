@@ -23,7 +23,7 @@ class Footer extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} className="icon" />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
       </div>
