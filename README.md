@@ -18,4 +18,4 @@ This is a repository for my portfolio.
 
 ## Contributing
 
-Feel free to make a pull request if you'd like to help improve it. :)
+Feel free to make a pull request if you'd like to help improve it. 😀
