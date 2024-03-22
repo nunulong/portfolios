@@ -7,7 +7,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <div className="copyright">&copy; 2021 Ting Wang</div>
+        <div className="copyright">&copy; {(new Date()).getFullYear} By Ting Wang</div>
         <div className="social">
           <a
             className="icon"
