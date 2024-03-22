@@ -5,9 +5,11 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 class Footer extends Component {
   render() {
+    const d = new Date();
+    let year = d.getFullYear();
     return (
       <div className="footer">
-        <div className="copyright">&copy; {(new Date()).getFullYear} By Ting Wang</div>
+        <div className="copyright">&copy; {year} By Ting Wang</div>
         <div className="social">
           <a
             className="icon"
