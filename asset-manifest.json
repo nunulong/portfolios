@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolios/static/css/main.85e57b85.css",
-    "main.js": "/portfolios/static/js/main.f7d74896.js",
+    "main.css": "/portfolios/static/css/main.a5d51c76.css",
+    "main.js": "/portfolios/static/js/main.d021edc0.js",
     "static/media/weather-report.png": "/portfolios/static/media/weather-report.1be6f0b20fa6cff5c4d6.png",
     "static/media/contact-background.jpg": "/portfolios/static/media/contact-background.1b4e9ae82569c282ef49.jpg",
     "static/media/github-battle.png": "/portfolios/static/media/github-battle.49a82ba031885e3bf1da.png",
@@ -10,11 +10,11 @@
     "static/media/sweet.jpg": "/portfolios/static/media/sweet.3ccac936d6f645945c9b.jpg",
     "static/media/random-quote.png": "/portfolios/static/media/random-quote.828e84636e0811d25d53.png",
     "index.html": "/portfolios/index.html",
-    "main.85e57b85.css.map": "/portfolios/static/css/main.85e57b85.css.map",
-    "main.f7d74896.js.map": "/portfolios/static/js/main.f7d74896.js.map"
+    "main.a5d51c76.css.map": "/portfolios/static/css/main.a5d51c76.css.map",
+    "main.d021edc0.js.map": "/portfolios/static/js/main.d021edc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.85e57b85.css",
-    "static/js/main.f7d74896.js"
+    "static/css/main.a5d51c76.css",
+    "static/js/main.d021edc0.js"
   ]
 }
