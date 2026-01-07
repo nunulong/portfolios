@@ -7,20 +7,10 @@ class About extends Component {
       <div className="about">
         <div className="intro">
           <p>
-            Hi, I'm Ting with my lovely wife Angelina. I am a software engineer specializing in creating dynamic and clean websites. I
-            enjoy being challenged and engaging with projects that require me to
-            work outside my comfort and knowledge set, as continuing to learn
-            new languages and development techniques are important to me and the
-            success of the organization and I have been loving every minute of
-            it.
+            Hi, I'm Ting, and I'm joined by my wonderful wife, Angelina. As a software engineer, I specialize in crafting dynamic, clean, and user-friendly websites. I thrive on challenges and embrace projects that push me beyond my comfort zone, as learning new languages and development techniques is key to my growth and the success of the organizations I work with. I love every moment of this journey!
           </p>
           <p>
-            I am a family guy, technology enthusiast, and overall a thinker. I
-            am skilled in designing, testing, and developing application,
-            thoroughly understanding of data structures and algorithms,
-            knowledgeable of front-end/back-end development best practices,
-            hands-on software troubleshooting experience, and proven track
-            record of proper documentation for future maintenance.
+            I'm a dedicated family man, technology enthusiast, and thoughtful problem-solver. My expertise includes designing, testing, and developing applications, with a deep understanding of data structures and algorithms. I'm well-versed in front-end and back-end development best practices, bring hands-on experience in software troubleshooting, and maintain a proven track record of clear, thorough documentation to support future maintenance.
           </p>
         </div>
       </div>

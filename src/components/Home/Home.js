@@ -8,7 +8,7 @@ class Home extends Component {
         <div className="title">
           <h1>Hi, I'm Ting Wang</h1>
           <h2>Software Engineer</h2>
-          <a href="https://airtable.com/appfD3d0z7ltzV5jB/tblAD5jsb4SsKYqqL/viwSQyca3IumZJaYJ/recbAoWwakcSFM714/fldpMTHnyAeyHnrfC/attBadQNbTm71IgdO?blocks=hide" target="_blank" rel="noopener noreferrer"><h2>My Resume</h2></a>
+          <a href="https://docs.google.com/document/d/1bR3q7Yl94M_iFColMktUy24fWwgioBxB/edit?usp=drive_link&ouid=107575394346975930226&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"><h2>My Resume</h2></a>
         </div>
       </div>
     );
