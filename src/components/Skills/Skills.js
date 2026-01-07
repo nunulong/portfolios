@@ -9,6 +9,7 @@ import {
   faSass,
   faNodeJs,
   faPython,
+  faJava,
 } from '@fortawesome/free-brands-svg-icons';
 import { faGem, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
@@ -58,6 +59,10 @@ class Resume extends Component {
               <p className="intro">What makes the front-end of a website possible? This is where the back-end comes in. I've always been fascinated with back-end development because I love manipulating data. I've been equipped with these powerful tools: </p>
               <div className="icon-wrapper">
                 <div className="resume-icon">
+                  <FontAwesomeIcon icon={faJava} />
+                  <p>Java</p>
+                </div>
+                <div className="resume-icon">
                   <FontAwesomeIcon icon={faNodeJs} />
                   <p>NodeJS</p>
                 </div>
@@ -66,8 +71,8 @@ class Resume extends Component {
                   <p>Python</p>
                 </div>
                 <div className="resume-icon">
-                  <FontAwesomeIcon icon={faGem} />
-                  <p>Ruby on Rails</p>
+                  <FontAwesomeIcon icon={faDatabase} />
+                  <p>MySQL</p>
                 </div>
                 <div className="resume-icon">
                   <FontAwesomeIcon icon={faDatabase} />
