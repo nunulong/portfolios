@@ -1,5 +1,5 @@
 import githubBattleImg from '../../assets/carousel/github-battle.png';
-import randomQuoteImg from '../../assets/carousel/random-quote.png';
+import randomQuoteImg from '../../assets/carousel/random-quote.jpeg';
 import weatherReportImg from '../../assets/carousel/weather-report.png';
 
 export const projects = [
