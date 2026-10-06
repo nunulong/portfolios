@@ -1,102 +1,146 @@
-.resume {
-  height: 100%;
+.skills-wrapper {
+  padding: 3.5rem 0 5.5rem 0;
 }
 
-.resume-header {
-  height: 30%;
-  background: url('../../assets/skills-background.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.skills-cards-duo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.skill-domain-card {
+  background: #ffffff;
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-lg);
+  padding: 2.6rem;
+  box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+  transition: all var(--transition-normal);
+}
+
+.skill-domain-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.domain-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.domain-icon-wrapper {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-muted);
+  border: 1px solid var(--border-main);
+  display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 4vmin;
+  color: var(--text-title);
+  flex-shrink: 0;
 }
 
-.resume-header h2,
-h5 {
-  margin: 0;
+.domain-card-head h2 {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--text-title);
+  letter-spacing: -0.02em;
 }
 
-.resume-header h2 {
-  text-transform: uppercase;
+.domain-intro-text {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: var(--text-body);
 }
 
-.resume-container {
-  height: 70%;
-  background: #f2f2f2;
-}
-
-.card-container {
+.domain-pills-wrap {
   display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  background: #f2f2f2;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-main);
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 46vw;
-  height: 50vh;
-  margin-top: 4vh;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.modern-skill-pill {
+  display: inline-flex;
   align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.95rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-pill);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-main);
+  transition: all var(--transition-fast);
 }
 
-.card h1 {
-  font-size: 3.5vmin;
-  margin: 0;
+.modern-skill-pill:hover {
+  background: #ffffff;
+  border-color: var(--text-title);
+  color: var(--text-title);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
-.card .intro {
-  margin: 0;
-  font-size: 2.25vmin;
-  padding-left: 6vmin;
-  padding-right: 6vmin;
-  text-align: justify;
+.pill-dot-indicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--accent-blue);
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.icon-wrapper {
+/* Practices Strip */
+.practices-bar {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-main);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 2rem;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.2rem;
 }
 
-.resume-icon {
-  margin: 0;
-  display: inline-block;
-  font-size: 4vmin;
-  color: #0080ff;
-  padding: 0 2vmin 0 2vmin;
+.practices-bar-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-title);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.resume-icon p {
-  margin: 0;
-  font-size: 1.75vmin;
+.practices-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-@media (max-width: 768px) {
-  .card-container {
-    flex-direction: column;
+.practice-tag-item {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-body);
+  background: #ffffff;
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-main);
+}
+
+@media (max-width: 800px) {
+  .skills-cards-duo {
+    grid-template-columns: 1fr;
   }
 
-  .card {
-    width: 90vw;
-    height: 28vh;
-    margin: auto;
-    margin-top: 2.5vh;
+  .skill-domain-card {
+    padding: 1.8rem;
   }
 }

@@ -1,36 +1,29 @@
 {
-  "homepage": "https://nunulong.github.io/portfolios",
-  "name": "portfolio",
-  "version": "1.0.0",
+  "name": "ting-portfolio",
   "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "^5.0.1",
-    "typescript": "^4.4.4"
-  },
+  "version": "2.0.0",
+  "type": "module",
+  "homepage": "https://nunulong.github.io/portfolios",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/eslint-parser": "^7.15.8",
-    "@babel/plugin-proposal-private-property-in-object": "^7.15.7",
-    "gh-pages": "^6.3.0"
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.1.1",
+    "vite": "^6.0.7"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11"
-  ]
+  "overrides": {
+    "braces": "^3.0.3"
+  }
 }
